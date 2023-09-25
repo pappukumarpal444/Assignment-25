@@ -1,0 +1,21 @@
+header{
+    width: 70%;
+    display: flex;
+    background-color: green;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+header .navbar ul li a{
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: white;
+   margin: 0 1rem;
+}
